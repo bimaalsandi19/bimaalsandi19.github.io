@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Oswald:wght@200;400;700&display=swap');
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+h1,h2,h3,h4, h5, .logo{
+    font-family: 'Oswald', sans-serif;
+}
+.logo{
+    color: #fff;
+    font-size: 30px;
+}
+.logo span{
+    color: #FA163F;
+}
+.logo:hover{
+    color: #fff;
+}
+.burger{
+    background: #FA163F ;
+}
+ul li a{
+    color: #fff !important;
+    padding: 10px;
+
+}
+ul li a:hover{
+    border-right: 1px solid #FA163F;
+    background: #111111;
+    color: #FA163F !important;
+}   
+
+
+/* HOME */
+.hero-text{
+    text-align: center;
+    padding-top: 200px;
+}
+.home{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(../assets/img/eda5739966cb33768d8ad0d77d7307ce.gif);
+    background-size: cover;
+    background-position: center;
+}
+h2{
+    border-left: 10px solid #FA163F;
+    font-size: 34px;
+}
+h3{
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 200;
+}
+h1{
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+h4{
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+h5{
+    font-size: 20px;
+}
+h5 span{
+    color: #FA163F;
+}
+h4 span{
+    color: #FA163F;
+}
+p{
+    font-size: 15px;
+    color: #bbb;
+    letter-spacing: 1px;
+}
+.btn-hire{
+    background: #FA163F;
+    width: 100px;
+    padding: 15px 0;
+}
+.btn-send{
+    background: #FA163F;
+    padding: 15px 20px;
+}
+.btn-download{
+    background: transparent;
+    width: 150px;
+    padding: 15px 0;
+}
+.btn-hire:hover{
+    background: transparent;
+    border-radius: 1px solid #FA163F;
+}
+.btn-download:hover{
+    background: #FA163F;
+    border-radius: 1px solid #FA163F;
+}
+
+/* About */
+.about{
+    padding: 100px 0;
+}
+
+.about img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    filter: grayscale(30%);
+}
+.about .card{
+    background: #111111;
+    text-align: center;
+    padding: 30px;
+}
+.about svg{
+    color: #FA163F;
+    width: 30px;
+    height: 30px;
+}
+
+/* project */
+.project{
+    padding: 100px 0;
+    background: #111111;
+}
+
+.project .card{
+    height: 300px;
+    border-left: 2px solid #FA163F;
+    overflow: auto;
+}
+
+.project h3 b{
+    color: #FA163F;
+}
+
+/* Contact */
+.contact{
+    padding: 100px 0;
+}
+.contact .card{
+    background: #111111;
+}
+.contact svg{
+    color: #FA163F;
+    width: 30px;
+    
+}
+.contact input[type="text"], input[type='email'], textarea{
+    background: #111111 !important;
+    border: 0 !important;
+    color: #bbb !important;
+}
+
+.footer{
+    background: #111111;
+    padding: 50px 0;
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    h1{
+        font-size: 55px;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+    .about img{
+        width: 100%;
+        height: 650px;
+        object-fit: cover;
+        filter: grayscale(30%);
+    }
+ }
